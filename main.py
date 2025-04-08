@@ -25,10 +25,10 @@ class MotivationalBot:
 
         # Load pre-trained GPT-2 model and tokenizer from Hugging Face
         print("sdfghjkjhgfefhjkhg")
-        self.tokenizer = GPT2Tokenizer.from_pretrained('distilgpt2')
+        self.tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
         print("sdfgtyeds")
 
-        self.model = GPT2LMHeadModel.from_pretrained('distilgpt2')
+        self.model = GPT2LMHeadModel.from_pretrained('gpt2')
         print("sadsggeg")
         self.tokenizer.pad_token = self.tokenizer.eos_token
 
